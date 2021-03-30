@@ -5,9 +5,9 @@
 		<meta name="author" content="Lucas 'Pad' Kinne">
 		<meta charset="utf-8">
 		<link rel="icon" href="favicon.png">
-		<link rel="stylesheet" href="/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/css/stylesheet.css">
-		<script src="/js/bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="/fuerbitten-sammler/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/fuerbitten-sammler/css/stylesheet.css">
+		<script src="/fuerbitten-sammler/js/bootstrap.bundle.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -61,7 +61,7 @@
 			<div class="jumbotron jmic-background-color mt-4 p-3">
 				<div class="d-flex justify-content-between align-items-center">
 					<h1 class="d-inline-block m-2 jmic-important">Fürbitten-Sammler</h1>
-					<img class="d-inline-block m-2" src="/logo.png" height="100" width="100"/>
+					<img class="d-inline-block m-2" src="/fuerbitten-sammler/logo.png" height="100" width="100"/>
 				</div>
 				<hr>
 				<p>Mit diesem Formular kannst du uns deine <strong>Fürbitten für den Karfreitag</strong> zusenden.</p>
