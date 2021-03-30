@@ -77,7 +77,7 @@
 						</div>
 					</div>
 					<div class="form-check mt-4">
-						<input class="form-check-input" type="checkbox" for="public" <?php if (isset($_POST["public"]) === true && $_POST["public"] === 1) echo("checked");?>>
+						<input class="form-check-input" type="checkbox" name="public" <?php if (isset($_POST["public"]) === true && $_POST["public"] === 1) echo("checked");?>>
 						<label class="form-check-label" for="public">
 							Ich bin damit einverstanden, dass meine Fürbitten <strong>öffentlich im Livestream vorgetragen</strong> werden.
 						</label>
