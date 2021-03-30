@@ -1,0 +1,19 @@
+version: '3'
+services:
+  jmic:
+    container_name: jmic
+    image: jungesmuensterschwarzach/intercession-collector:latest
+    build:
+      context: .
+    restart: on-failure
+    volumes:
+      - ${JMIC_SECRETS}:/var/data/secrets/jma
+    networks:
+      jenkins:
+        ipv4_address: 172.16.1.220
+networks:
+  default:
+    external:
+      name: jenkins
+  jenkins:
+    external: true

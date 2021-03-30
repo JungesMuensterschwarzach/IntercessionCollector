@@ -1,0 +1,15 @@
+textarea, input[type="checkbox"] {
+    background-color: #fbfbfb;
+}
+
+.jumbotron {
+    border-radius: 0.5rem;
+}
+
+.jmic-background-color {
+	background-color: #e0e0e0;
+}
+
+.jmic-important {
+    color: #f18613;
+}
