@@ -2,7 +2,7 @@ version: '3'
 services:
   jmic:
     container_name: jmic
-    image: jungesmuensterschwarzach/intercession-collector:latest
+    image: jenkinsluckev/intercession-collector:latest
     build:
       context: .
     restart: on-failure
