@@ -7,10 +7,13 @@ services:
       context: .
     restart: on-failure
     volumes:
-      - ${JMIC_SECRETS}:/var/data/secrets/jma
+      - jmic-secrets:/var/data/secrets/jmic
     networks:
       jenkins:
         ipv4_address: 172.16.1.220
+volumes:
+  jmic-secrets:
+    external: true
 networks:
   default:
     external:

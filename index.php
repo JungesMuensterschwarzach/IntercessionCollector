@@ -14,7 +14,7 @@
 			<?php
 				if ($_SERVER["REQUEST_METHOD"] === "POST") {
 					try {
-						$secretsDir = getenv("JMIC_SECRETS") ? getenv("JMIC_SECRETS") : "/var/data/secrets/jma";
+						$secretsDir = getenv("JMIC_SECRETS") ? getenv("JMIC_SECRETS") : "/var/data/secrets/jmic";
 						$conDets = json_decode(file_get_contents($secretsDir."/database.json"), true);
 						$mysqli = new mysqli(
 							$conDets["server"],
